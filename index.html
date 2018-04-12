@@ -10,10 +10,26 @@
     <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="manifest" href="manifest.json">
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAfFbUgv3ViWimTrflagm-9v1_MHuVfWRs",
+        authDomain: "pwa-example-simple.firebaseapp.com",
+        databaseURL: "https://pwa-example-simple.firebaseio.com",
+        projectId: "pwa-example-simple",
+        storageBucket: "",
+        messagingSenderId: "284761332933"
+      };
+      firebase.initializeApp(config);
+    </script>
     
     <script src="js/object.observe.polyfill.js"></script>
     <script src="js/array.observe.polyfill.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/push.js"></script>
 
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
